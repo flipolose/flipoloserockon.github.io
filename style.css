@@ -1,0 +1,1071 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruthie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: auto;
+  background-color: #231009;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.p {
+  color: #a2a2a2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 14px;
+  line-height: 18.5px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1077px;
+  margin: 0 auto;
+}
+
+
+.wrapper {
+  width:100%;
+  height: 112vh;
+  background-image: url('/images/wrapper.svg');
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-bottom: 108px;
+}
+
+/* Шапка */
+
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logotype img {
+  width: 80%;
+}
+
+.navbtn {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbtn__nav {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+
+.navbtn__text--detail {
+  color: #FFB800;
+  padding: 10px 0;
+  border-bottom: 1px solid #FFB800;
+}
+
+.btn {
+  border-style: none;
+  background-color: #FFB800;
+  padding: 12px 26px;
+  color: #231009;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6c4e04;
+  transition-duration: 0.7s;
+}
+
+.info {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info img {
+  width: 10%;
+  flex-shrink: 0;
+
+}
+
+.info__eym {
+  position: relative;
+  top:-7px;
+  left:5px;
+  display: inline-block;
+  color: #FFB800;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 11px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info__ft {
+  color: #fff;
+  font-family: 'Ruthie', sans-serif;
+  font-size: 135px;
+  font-weight: 400;
+}
+
+.info__sound {
+  display: block;
+  position: relative;
+  top: -90px;
+  left:19px;
+  font-family: 'Lato', sans-serif;
+  color: rgba(0, 0, 0, 0);
+  font-size: 125px;
+  font-weight: 800;
+  -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+  letter-spacing: 40px;
+}
+
+.info button {
+  position: relative;
+  top: -80px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  top: 205px;
+  left: 33px;
+
+}
+
+.contacts img {
+  width: 80%;
+}
+
+.present {
+  cursor: pointer;
+  position: absolute;
+  bottom: 42px;
+  right: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.present img {
+  width: 80%;
+}
+
+.musicplay {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  left:8px;
+  bottom: 8px;
+  text-align: center;
+}
+
+.musicplay-overlay {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.musicplay-overlay img {
+  width: 25px;
+}
+
+img.musicplay-overlay__play {
+  width: 9px;
+}
+
+.musicplay-description{
+  text-align: left;
+}
+
+.musicplay-description__artist {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.musicplay-description__track {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.albumdemonstration {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.albumdemonstration-1half {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.albumdemonstration-1half__yellow{
+  margin-bottom:8px;
+
+}
+
+.albumdemonstration-1half__white{
+  margin-bottom:27px;
+}
+
+.line.albumdemonstration-1half__line{
+  width:9.5%;
+  margin-bottom:28px;
+
+}
+
+
+.yellow {
+  color: #FFB800;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.white {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 5.5px;
+}
+
+.albumdemonstration-1half__p--second{
+  margin-bottom:23px;
+}
+
+.albumdemonstration-2half {
+  width: 50%;
+  position: relative;
+  top: -20px;
+}
+
+.albumdemonstration-2half img {
+  width: 80%;
+}
+
+.singer{
+  position: absolute;
+  top: -90px;
+  left: 45px;
+
+}
+
+.singer img {
+  width: 118%;
+
+}
+
+.line {
+  display: block;
+  border: none;
+  border-top: 2px solid #fff;
+  width: 8.5%;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+.albumdemonstration-1half__download{
+  display: flex;
+  gap: 15px;
+}
+
+
+.download img {
+  width: 25%;
+}
+
+.download img.download__apple{
+  width:27%;
+}
+
+.albumdemonstration-overlay {
+  position: absolute;
+  top: 187px;
+  right: 135px;
+  gap: 40px;
+}
+
+.albumdemonstration-overlay img{
+  width:24px;
+}
+
+img.albumdemonstration-overlay__play{
+  width:8px;
+
+}
+
+.linevertical {
+  transform: rotate(90deg);
+  width: 95px;
+}
+
+.ourdiscography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ourdiscography__yellow{
+  margin-top:25px;
+  margin-bottom: 10px;
+}
+
+
+.ourdiscography-card {
+  position: relative;
+  left:-10px;
+  margin-top: 85px;
+  display: flex;
+  gap:60px;
+}
+
+.ourdiscography-card__description {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.ourdiscography-card__description--top {
+  position: relative;
+  top: -64px;
+}
+
+.ourdiscography-card__description img {
+  display: block;
+  margin-bottom: 16px;
+  width:107%;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ourdiscography__yellow {
+  color: #FFB800;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.ourdiscography__white {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 5.5px;
+  margin-bottom: 29px;
+}
+
+.ourdiscography-card__yellow{
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  margin-bottom:0;
+}
+
+.ourdiscography-card__white.white{
+  font-size: 16px;
+  letter-spacing: 1.7px;
+}
+
+
+.ourdiscography p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hrmountain {
+  display: flex;
+  margin-top: 60px;
+  gap: 0;
+}
+
+.hrmountain__line {
+  display: block;
+  border: none;
+  border-top: 2px solid #a2a2a2;
+  width: 18px;
+  transform: rotate(90deg);
+}
+
+.hrmountain__line-detail {
+  background-color: #fff;
+  border-top: #fff;
+  width: 28px;
+}
+
+.rhythmwrapper {
+  margin-top:110px;
+    background-image: url(./images/friends.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.rhythm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 120px;
+  padding-bottom: 77px;
+  padding-top:78px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.plaplay {
+  cursor: pointer;
+}
+
+.plaplay img {
+  margin-bottom: 17px;
+  width: 9.5%;
+}
+
+.plaplay__yellow{
+  margin-bottom:8px;
+}
+
+.plaplay__white{
+  font-size:40px;
+}
+
+.concert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.concert__line{
+  width:48px;
+  margin-bottom:35px;
+}
+
+.concert__yellow{
+  font-size:14px;
+  margin-bottom: 10px;
+}
+
+.concert__white{
+  margin-bottom:32px;
+}
+
+.concert-imgcards {
+  margin-top: 16px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.concertsinger {
+  width: 520px;
+}
+
+.concertsinger img {
+  width: 520px;
+}
+
+.schedule-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedule-card-p {
+  gap: 2.5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.schedule-card__yellow {
+  margin:0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.schedule-card__white{
+  font-weight:500;
+  margin:0;
+}
+
+.schedule-card__p{
+  margin: 0;
+  color: #a2a2a2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18.5px;
+}
+
+.schedule-card__white {
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.concert-schedule {
+  padding:32px;
+  width:440px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.line2 {
+  display: block;
+  border: none;
+  border-top:0.5px solid #a2a2a2;
+  background-color: #a2a2a2;
+  margin:25px 0;
+}
+
+.schedule-card__btn{
+  background-color: #231009;
+  color: #FFB800;
+  border-color: #FFB800;
+  border-style: solid;
+  font-size:12px;
+  font-weight: 600;
+  padding: 12px 18px;
+  border-width: 1px;
+}
+
+
+
+.guitaristsingerwrapper{
+  width: 100%;
+  padding:117px 0;
+  background-image: url(./images/guitaristandsinger.svg);
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-bottom:120px;
+}
+
+.guitaristsingerwrapper-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.guitaristsingerwrapper-content__yellow{
+  margin-bottom:10px;
+}
+
+.guitaristsingerwrapper-content__white {
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size:27px;
+  margin-bottom:20px;
+}
+
+.guitaristsingerwrapper-content__white-black{
+  font-weight: 800;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  letter-spacing: 5.5px;
+  margin-bottom:35px;
+}
+
+.guitaristsingerwrapper-timer{
+  display: flex;
+  gap:15px;
+  align-items: center;
+  margin-bottom:40px;
+}
+
+.guitaristsingerwrapper-number{
+  background-image: url(./images/rectangleevent.svg);
+  padding:25px 40px;
+}
+
+.guitaristsingerwrapper-number__yellow{
+  font-weight:800;
+  font-size:40px;
+  font-family: 'Lato', sans-serif;
+}
+
+.guitaristsingerwrapper-number p{
+    color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  line-height: 18.5px;
+}
+
+.artists{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.artists__yellow{
+  margin-bottom: 10px;
+}
+
+.artists__white{
+  margin-bottom:50px;
+}
+
+.artists__line{
+  width:45px;
+}
+
+.artists-cards{
+  display:flex;
+  gap:42px;
+}
+
+.artist-card{
+    display: inline-flex;          
+    flex-direction: column;
+    align-items: center;       
+}
+
+.artist-card__white{
+  font-size:15px;
+  font-weight:500;
+  letter-spacing:2px;
+  margin-top:20px;
+  margin-bottom:5px;
+}
+
+.artist-card__yellow{
+  font-size: 14px;
+  font-weight:400;
+  letter-spacing:0;
+}
+
+.artist-card img{
+  display: block;    
+  width: 330px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.followus{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top:130px;
+}
+
+.followus__line{
+  width:48px;
+}
+
+.wrapperfollowus{
+  margin-top:50px;
+    width: 100%;
+    height: 600px;
+  background-image: url(./images/followus.svg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.followus__white{
+  margin-top:10px;
+}
+
+.wrapperfollowus-contacts{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.wrapperfollowus-contact{
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  height:600px;
+  justify-content: flex-end;
+  text-align: left;
+  border-right:1px solid #a2a2a2;
+}
+
+.wrapperfollowus-facebook{
+  margin-left:30px;
+  margin-bottom:38px;
+}
+
+.wrapperfollowus-diff{
+  margin-left:38px;
+  margin-bottom:38px;
+}
+
+.wrapperfollowus-diff__white{
+  font-size:23px;
+  letter-spacing: 1px;
+}
+
+.wrapperfollowus-contact__p{
+  color: #a2a2a2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 14px;
+  margin-top:8px;
+  line-height: 18.5px;
+  width:100%;
+}
+
+.wrapperfollowus-contact--nonborder{
+  border:none;
+}
+
+.wrapperfollowus-contact__white{
+  font-size:23px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.blog-card {
+  display:flex;
+  text-align:center;
+  align-items:center;
+}
+
+.blog {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top:120px;
+}
+
+.blog__line{
+  width:40px;
+}
+
+.blog__white {
+  margin-top:10px;
+}
+
+.blogcards {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:50px;
+  gap:43px;
+  margin-bottom: 0;
+}
+
+.blogcards-card {
+      display: inline-flex;          
+    flex-direction: column;
+    align-items: center;
+    width:330px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+  
+}
+
+.blogcards-card__img img{
+    display: block;
+    width:330px;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.blog__btn{
+  margin-top:50px;
+  margin-bottom:0;
+}
+
+.blogcards-card__text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding:0 15px;
+  padding-bottom: 20px;
+}
+
+.blogcards-card__yellow {
+  font-size:12.5px;
+  font-weight:300;
+  letter-spacing: 1px;
+  margin-top:13px;
+}
+
+.blogcards-card__white {
+  font-size:16px;
+  letter-spacing: 1.4px;
+  font-weight:400;
+  margin-top:8px;
+}
+
+.blogcards-card__p {
+  font-size:12px;
+  letter-spacing: 0.2px;
+  margin-top:10px;
+}
+
+img.blogcards-card__link{
+  width:4%;
+  margin-left:10px;
+}
+
+span.blogcards-card__link{
+  color:#FFB800;
+}
+
+.artist-card{
+    display: inline-flex;          
+    flex-direction: column;
+    align-items: center;       
+}
+
+.artist-card__white{
+  font-size:15px;
+  font-weight:500;
+  letter-spacing:2px;
+  margin-top:20px;
+  margin-bottom:5px;
+}
+
+.artist-card__yellow{
+  font-size: 14px;
+  font-weight:400;
+  letter-spacing:0;
+}
+
+.artist-card img{
+  display: block;    
+  width: 330px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.lastform{
+  position: relative;
+  top:270px;
+  background-image: url('./images/form12.svg');
+  background-repeat:no-repeat;
+  background-size: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:82px;
+  padding-bottom: 82px;
+}
+
+.lastform__white{
+  margin-top: 6px;
+  letter-spacing: 5px;
+   font-size: 31px;
+}
+
+.lastform-form{
+  margin-top:50px;
+}
+
+.textandemail{
+  display:flex;
+  gap: 39px;
+}
+
+.textandemail input[type="text"]{
+  border:none;
+  border-bottom: 1px solid #a2a2a2;
+  background:none;
+  padding-bottom: 6px;
+  width:410px;
+}
+
+.textandemail input::placeholder{
+  color:#cccccc;
+    font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.textandemail input[type="email"]{
+  border:none;
+  border-bottom: 1px solid #a2a2a2;
+  background:none;
+  padding-bottom: 6px;
+  width:410px;
+}
+
+textarea{
+  resize:none;
+  margin-top:28px;
+  background: none;
+  border:none;
+  border-bottom:1px solid #a2a2a2;
+  width:870px;
+  padding-bottom: 73px;
+}
+
+textarea::placeholder{
+  color:#ccc;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.lastform-form__btn{
+  margin-top: 45px;
+}
+
+.footerwrapper{
+  background-color: #FFB800;
+  padding-top:318px;
+  padding-bottom:10px;
+}
+
+.footer{
+    display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-subscribe{
+  margin-top: 38px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.footer-footera{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:13px;
+  gap:477px;
+
+}
+
+
+.footer-subscribe input[type="email"]{
+  background: none;
+  border:none;
+  border-bottom: 1px solid #231009;
+  width: 360px;
+  padding-bottom: 2px;
+}
+
+.footer-subscribe label{
+  margin-top:10px;
+  position: relative;
+  height: 20px;
+}
+
+.footer__btn{
+  position: absolute;
+  background-image: url('./images/enteremailvector.svg');
+  border: none;
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  cursor: pointer;
+  top:5px;
+  left:350px;
+}
+
+.footer__contacts{
+  margin-top:25px;
+  display: flex;
+  gap:18px;
+  align-items: center;
+}
+
+.footer-subscribe input[type="email"]::placeholder{
+  color: #231009;
+  font-size: 11px;
+  letter-spacing: 0.9px;
+}
+
+.footer__text{
+  font-family:'Lato',sans-serif;
+  font-size:13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.footer__logotype {
+  width:19%;
+}
+
+.footer__nav{
+  margin-top:38px;
+}
+
+.footer__nav li{
+  color:#231009;
+  font-weight: 500;
+}
+
+.footer-footeraambi {
+  display: flex;
+  align-items: center;
+  gap:11px;
+}
+
+.footer__text--detail{
+  letter-spacing: 0px;
+}
+
+.footer-subscribe__text{
+  font-family:'Lato',sans-serif;
+  font-size:15px;
+  font-weight:500px;
+  letter-spacing: 2.3px;
+}
+
+.footer__hr{
+  margin-top:30px;
+    display: block;
+  border: none;
+  border-top: 1px solid #231009;
+  width: 100%;
+  background-color: #231009;
+}
+
